@@ -1,0 +1,25 @@
+.square {
+  width: 50px;
+  height: 50px;
+  background-color: lightgray;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.square.queen {
+  background-color: darkgray;
+}
+
+.row > div {
+  margin-right: -1075px;
+}
+.square.selected {
+  background-color: lightblue;
+}
+
+.heuristic-table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
